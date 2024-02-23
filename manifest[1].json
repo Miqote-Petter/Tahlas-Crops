@@ -1,0 +1,11 @@
+{
+   "Name": "Tahla's Crops",
+   "Author": "SquishyMiqoteMods",
+   "Version": "0.0.1",
+   "Description": "A collection of different fruits, flowers, and veggies... With a recipe or two.",
+   "UniqueID": "SquishyMiqoteMods.TahlasCrops",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets",
+   }
+}
