@@ -1,0 +1,53 @@
+{
+	"Name": "Sauteed Snow Peas",
+	"Description": "Snow Peas sauteed with light seasonings.",
+	"Category": "Cooking",
+  
+	"Edibility": 25,
+	"EdibleIsDrink": false,
+  
+	"EdibleBuffs": {
+					"Farming": 0,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 0,
+					"MaxStamina": 0,
+					"MagnetRadius": 10,
+					"Speed": 3,
+					"Defense": 0, 
+					"Attack": 0,
+					"Duration": 300, 
+  },
+  
+	"Price": 50, 
+  
+	"IsColored": false, 
+  
+	"Recipe": {
+			  "ResultCount": 1, 
+			  
+			  "Ingredients": [
+								{
+								   "Object": "Snow Peas", 
+								   "Count": 3, 
+								},
+								{
+								   "Object": "Oil", 
+								   "Count": 1, 
+								},
+			      ],
+			   
+			   "IsDefault": "True", 
+			   
+			   "CanPurchase": "False", 
+			},
+  
+	"GiftTastes": { 
+					"Love": [ "Pam", "Alex", "Demetrius", ], 
+					"Like": [ "Leah", "Gus", ], 
+"Neutral": [ "Emily", ], 
+					"Dislike": [ "Sophia", ], 
+					"Hate": [  "Haley", "Torts", "Lewis", "Vincent", "Jas", ],	
+	},
+}

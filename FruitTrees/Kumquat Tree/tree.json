@@ -1,0 +1,9 @@
+{
+    "Name": "Kumquat Tree",
+    "Product": "Kumquat",
+    "SaplingName": "Kumquat Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
+    "Season": "winter",
+	"SaplingPurchaseFrom": "Sandy",
+    "SaplingPurchasePrice": 8000,
+}

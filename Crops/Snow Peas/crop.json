@@ -1,0 +1,27 @@
+{
+    "Name": "Snow Peas",
+    "Product": "Snow Peas",
+    "SeedName": "Snow Pea Starter",
+	
+    "SeedDescription": "Plant in spring or fall. Takes 10 days to mature, and keeps producing after that. Grows on a trellis.",
+	
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "fall", ],
+    "Phases": [ 1, 1, 1, 3, 4, ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+	
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 4,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0.0,
+    },
+		
+	"SeedPurchaseFrom": "Pierre",
+    "SeedPurchasePrice": 80,
+	"SeedSellPrice": 40,
+}

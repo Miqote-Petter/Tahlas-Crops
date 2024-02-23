@@ -1,0 +1,31 @@
+{
+    "Name": "Moss Rose",
+    "Product": "Moss Rose",
+    "SeedName": "Moss Rose Seeds",
+    "SeedDescription": "Plant in spring or summer. A ground-cover with delicate, pretty flowers that take 12 days to bloom. Their brightly coloured flowers are attract both butterflies and bees.",
+    "Type": "Flower",
+    "Seasons": ["spring", "summer"],
+    "Phases": [2, 1, 1, 3, 5],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": [
+        "253, 247, 87, 255",
+        "255, 30, 110, 255",
+        "254, 149, 81, 255",
+		"248, 118, 60, 255",
+		"234, 253, 238, 255",
+		"247, 197, 251, 255",
+		"249, 91, 106, 255",
+    ],
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+  	"SeedPurchaseFrom": "Pierre",
+    "SeedPurchasePrice": 200,
+	"SeedSellPrice": 100,
+}

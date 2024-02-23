@@ -1,0 +1,65 @@
+{
+	"Name": "Spaghetti Squash Pasta",
+	"Description": "Fork pulled Spaghetti Squash with Garlic, Oil, and Cheese. Yummy!",
+	"Category": "Cooking",
+  
+	"Edibility": 60,
+	"EdibleIsDrink": false,
+  
+	"EdibleBuffs": {
+					"Farming": 0,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 0,
+					"MaxStamina": 0,
+					"MagnetRadius": 0,
+					"Speed": 0,
+					"Defense": 0, 
+					"Attack": 0,
+					"Duration": 0, 
+  },
+  
+	"Price": 350, 
+  
+	"IsColored": false, 
+  
+	"Recipe": {
+			  "ResultCount": 1, 
+			  
+			  "Ingredients": [
+								{
+								   "Object": "Spaghetti Squash", 
+								   "Count": 1, 
+								},
+								{
+								   "Object": "Garlic", 
+								   "Count": 1,
+								},
+								{
+								   "Object": "Oil", 
+								   "Count": 1,
+								},
+								{
+								   "Object": "Cheese", 
+								   "Count": 2, 
+								},
+			      ],
+			   
+			   "IsDefault": "False", 
+			   
+			   "CanPurchase": "True", 
+			   "PurchaseFrom": "Gus", 		   
+			   "PurchasePrice": 1000, 
+			   
+			   "PurchaseRequirements": ["f Gus 750"], 
+			},
+  
+	"GiftTastes": { 
+					"Love": [ "Pam", "Alex", "Jas", "Vincent", ], 
+					"Like": [ "Leah", "Lewis", ], 
+"Neutral": [ "Emily", ], 
+					"Dislike": [ "Sophia", ], 
+					"Hate": [  "Haley", "Torts", "Gus", ],	
+	},
+}
