@@ -1,0 +1,58 @@
+{
+ 	"Format": "2.0.0",
+	 "ConfigSchema": {
+		"Cassie's Garden": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a variety of flowers intended to be used as an alternative to, or alongside, crops."
+		},
+		"Tahla's Crops": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "A collection of crops, fruit trees and recipes."
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "data/shop_pierre.json, data/objects.json, data/crops.json, data/gifttastes.json, data/cookingrecipes.json"
+		},
+		{
+			"Action": "Load",
+			"When": {"Cassie's Garden": true},
+			"Target": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds, 
+			Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_crop,
+			Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds,
+			Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_crop,
+			Mods/SquishyMiqoteMods.CassiesGarden/MossRose_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds,
+			Mods/SquishyMiqoteMods.CassiesGarden/MossRose_crop",
+			
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "Load",
+			"When": {"Tahla's Crops": true},
+			"Target": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_crop,
+			Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds,
+			Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoSauce_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_crop,
+			Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds,
+			Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_crop,
+			Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds,
+			Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_crop,
+			Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_object,
+			Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds,
+			Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquashSpaghetti_object
+			",
+		
+
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		}
+		]
+}

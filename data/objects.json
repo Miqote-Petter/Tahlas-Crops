@@ -1,0 +1,303 @@
+{
+	"Changes": [
+		{			
+            "Action": "EditData",
+            "Target": "Data/Objects",
+			"When": {"Cassie's Garden": true},
+        	"Entries": {
+
+            "SquishyMiqoteMods.CassiesGarden_Bluebonnet": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_Bluebonnet",
+				"Displayname": "{{i18n:Bluebonnet_name}}",
+				"Description": "{{i18n:Bluebonnet_description}}",
+				"Type": "Basic",
+				"Category": -80,
+				"Price": 280,
+				"Edibility": -10,
+				"EdibleIsDrink": false,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_object",
+				"Buffs": [
+					{
+					  "Id": null,
+					  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 60,
+					  "IsDebuff": true,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0.0,
+						"FishingLevel": 0.0,
+						"MiningLevel": 0.0,
+						"LuckLevel": 0.0,
+						"ForagingLevel": 0.0,
+						"MaxStamina": 0.0,
+						"MagneticRadius": 0.0,
+						"Speed": -1.0,
+						"Defense": 0.0,
+						"Attack": 0.0
+					  },
+					  "CustomFields": null
+					}
+				  ],
+					"ContextTags": [
+							"color_purple",
+							"dye_medium",
+							"flower_item",
+							"season_spring"
+						  ]   
+                },
+            "SquishyMiqoteMods.CassiesGarden_BluebonnetSeeds": {
+                    "Name": "SquishyMiqoteMods.CassiesGarden_BluebonnetSeeds",
+                    "Displayname": "{{i18n:BluebonnetSeeds_name}}",
+                    "Description": "{{i18n:BluebonnetSeeds_description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 100,
+                    "Texture": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_seeds"
+                },
+			"SquishyMiqoteMods.CassiesGarden_RedColeus": {
+					"Name": "SquishyMiqoteMods.CassiesGarden_RedColeus",
+					"Displayname": "{{i18n:RedColeus_name}}",
+					"Description": "{{i18n:RedColeus_description}}",
+					"Type": "Basic",
+					"Category": -80,
+					"Price": 20,
+					"Edibility": -1,
+					"EdibleIsDrink": false,
+					"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_object",
+					"ContextTags": [
+						"color_red",
+						"dye_medium",
+						"flower_item",
+						"season_summer"
+						  ]   
+                },
+				
+			"SquishyMiqoteMods.CassiesGarden_RedColeusSeeds": {
+                    "Name": "SquishyMiqoteMods.CassiesGarden_RedColeusSeeds",
+                    "Displayname": "{{i18n:RedColeusSeeds_name}}",
+                    "Description": "{{i18n:RedColeusSeeds_description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 15,
+                    "Texture": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_seeds"
+                },
+			
+			"SquishyMiqoteMods.CassiesGarden_MossRose": {
+					"Name": "SquishyMiqoteMods.CassiesGarden_MossRose",
+					"Displayname": "{{i18n:MossRose_name}}",
+					"Description": "{{i18n:MossRose_description}}",
+					"Type": "Basic",
+					"Category": -80,
+					"Price": 85,
+					"Edibility": -10,
+					"EdibleIsDrink": false,
+					"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_object",
+									"Buffs": [
+					{
+					  "Id": null,
+					  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 60,
+					  "IsDebuff": true,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0.0,
+						"FishingLevel": 0.0,
+						"MiningLevel": 0.0,
+						"LuckLevel": 0.0,
+						"ForagingLevel": 0.0,
+						"MaxStamina": 0.0,
+						"MagneticRadius": 0.0,
+						"Speed": -1.0,
+						"Defense": 0.0,
+						"Attack": 0.0
+					  },
+					  "CustomFields": null
+					}
+				  ],
+				  "ContextTags": [
+						"color_red",
+						"dye_medium",
+						"flower_item",
+						"season_spring",
+						"season_summer"
+						  ]
+			},
+
+				
+			"SquishyMiqoteMods.CassiesGarden_MossRoseSeeds": {
+                    "Name": "SquishyMiqoteMods.CassiesGarden_MossRoseSeeds",
+                    "Displayname": "{{i18n:MossRoseSeeds_name}}",
+                    "Description": "{{i18n:MossRoseSeeds_description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 125,
+                    "Texture": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_seeds"
+                }				
+			
+			
+                    }
+                },
+			{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"Tahla's Crops": true},			
+			"Entries": {
+					
+			"SquishyMiqoteMods.CassiesGarden_CherryTomatoes": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_CherryTomatoes",
+				"Displayname": "{{i18n:CherryTomatoes_name}}",
+				"Description": "{{i18n:CherryTomatoes_description}}",
+				"Type": "Basic",
+				"Category": -75,
+				"Price": 30,
+				"Edibility": 5,
+				"EdibleIsDrink": false,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_object",
+				"ContextTags": [
+					"color_red",
+					"dye_medium"
+					]                    
+					},
+			"SquishyMiqoteMods.CassiesGarden_CherryTomatoesSeeds": {
+					"Name": "SquishyMiqoteMods.CassiesGarden_CherryTomatoesSeeds",
+					"Displayname": "{{i18n:CherryTomatoesSeeds_name}}",
+					"Description": "{{i18n:CherryTomatoesSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+					"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_seeds"
+				},
+			"SquishyMiqoteMods.CassiesGarden_Cucumber": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_Cucumber",
+				"Displayname": "{{i18n:Cucumber_name}}",
+				"Description": "{{i18n:Cucumber_description}}",
+				"Type": "Basic",
+				"Category": -75,
+				"Price": 25,
+				"Edibility": 5,
+				"EdibleIsDrink": false,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_object",
+				"ContextTags": [
+					"color_green",
+					"dye_medium"
+					]                    
+					},
+			"SquishyMiqoteMods.CassiesGarden_CucumberSeeds": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_CucumberSeeds",
+				"Displayname": "{{i18n:CucumberSeeds_name}}",
+				"Description": "{{i18n:CucumberSeeds_description}}",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": 25,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_seeds"
+					},
+
+			"SquishyMiqoteMods.CassiesGarden_SnowPeas": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_SnowPeas",
+				"Displayname": "{{i18n:SnowPeas_name}}",
+				"Description": "{{i18n:SnowPeas_description}}",
+				"Type": "Basic",
+				"Category": -75,
+				"Price": 35,
+				"Edibility": 5,
+				"EdibleIsDrink": false,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_object",
+				"ContextTags": [
+					"color_lime",
+					"dye_medium"
+					]                    
+					},
+			"SquishyMiqoteMods.CassiesGarden_SnowPeasSeeds": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_SnowPeasSeeds",
+				"Displayname": "{{i18n:SnowPeasSeeds_name}}",
+				"Description": "{{i18n:SnowPeasSeeds_description}}",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": 40,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_seeds"
+					},
+
+			"SquishyMiqoteMods.CassiesGarden_SpaghettiSquash": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_SpaghettiSquash",
+				"Displayname": "{{i18n:SpaghettiSquash_name}}",
+				"Description": "{{i18n:SpaghettiSquash_description}}",
+				"Type": "Basic",
+				"Category": -75,
+				"Price": 250,
+				"Edibility": 30,
+				"EdibleIsDrink": false,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_object",
+				"ContextTags": [
+					"color_yellow",
+					"dye_light"
+					]                    
+					},
+			"SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSeeds": {
+				"Name": "SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSeeds",
+				"Displayname": "{{i18n:SpaghettiSquashSeeds_name}}",
+				"Description": "{{i18n:SpaghettiSquashSeeds_description}}",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": 50,
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_seeds"
+					},
+			"SquishyMiqoteMods.CassiesGarden_CherryTomatoSauce": {
+					"Name": "SquishyMiqoteMods.CassiesGarden_CherryTomatoSauce",
+					"Displayname": "{{i18n:CherryTomatoSauce_name}}",
+					"Description": "{{i18n:CherryTomatoSauce_description}}",
+					"Type": "Cooking",
+					"Category": -25,
+					"Price": 125,
+					"Edibility": 15,
+					"EdibleIsDrink": false,
+					"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoSauce_object",
+					"ContextTags": [
+							"color_red"
+							]                    
+						},
+			"SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSpaghetti": {
+					"Name": "SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSpaghetti",
+					"Displayname": "{{i18n:SpaghettiSquashSpaghetti_name}}",
+					"Description": "{{i18n:SpaghettiSquashSpaghetti_description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 450,
+					"Edibility": 40,
+					"EdibleIsDrink": false,
+					"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquashSpaghetti_object",
+					"Buffs": [
+						{
+						  "Id": "Food",
+						  "BuffId": null,
+						  "IconTexture": null,
+						  "IconSpriteIndex": 0,
+						  "Duration": 360,
+						  "IsDebuff": false,
+						  "GlowColor": null,
+						  "CustomAttributes": {
+							"FarmingLevel": 2.0,
+							"FishingLevel": 1.0,
+							"MiningLevel": 1.0,
+							"LuckLevel": 0.0,
+							"ForagingLevel": 0.0,
+							"MaxStamina": 25.0,
+							"MagneticRadius": 0.0,
+							"Speed": 0.0,
+							"Defense": 0.0,
+							"Attack": 0.0
+						  },
+						  "CustomFields": null
+						}
+					  ],
+					"ContextTags": [
+							"color_red"
+								]                    
+							}
+				}   
+			}
+    	]
+	}

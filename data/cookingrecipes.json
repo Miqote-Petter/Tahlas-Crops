@@ -1,0 +1,14 @@
+{
+	"Changes": [
+		{			
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+			"When": {"Tahla's Crops": true},
+        	"Entries": {
+
+"SquishyMiqoteMods.CassiesGarden_CherryTomatoSauce": "SquishyMiqoteMods.CassiesGarden_CherryTomatoes 1 24 1 247 1/66 6/SquishyMiqoteMods.CassiesGarden_CherryTomatoSauce/s Farming 3/",
+"SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSpaghetti": "SquishyMiqoteMods.CassiesGarden_CherryTomatoSauce 1 SquishyMiqoteMods.CassiesGarden_SpaghettiSquash 1 424 1/66 6/SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSpaghetti/s Farming 6/"
+            }
+        }
+    ]
+}
