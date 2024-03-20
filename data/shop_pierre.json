@@ -1,0 +1,83 @@
+{
+"Changes": [
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+	  "When": {"Cassie's Garden": true},
+      "Entries": {
+
+		"SquishyMiqoteMods.CassiesGarden_BluebonnetSeeds": {
+			"Id": "SquishyMiqoteMods.CassiesGarden_BluebonnetSeeds",
+			"ItemId": "SquishyMiqoteMods.CassiesGarden_BluebonnetSeeds",
+			"Condition": "SEASON spring",
+			"IgnoreShopPriceModifiers": true 
+		},
+		
+		"SquishyMiqoteMods.CassiesGarden_RedColeusSeeds": {
+			"Id": "SquishyMiqoteMods.CassiesGarden_RedColeusSeeds",
+			"ItemId": "SquishyMiqoteMods.CassiesGarden_RedColeusSeeds",
+			"Condition": "SEASON summer",
+			"IgnoreShopPriceModifiers": true 
+		},
+
+		"SquishyMiqoteMods.CassiesGarden_MossRoseSeeds": {
+			"Id": "SquishyMiqoteMods.CassiesGarden_MossRoseSeeds",
+			"ItemId": "SquishyMiqoteMods.CassiesGarden_MossRoseSeeds",
+			"Condition": "SEASON spring summer",
+			"IgnoreShopPriceModifiers": true 
+		}
+	},
+		"MoveEntries": [
+			{"Id": "SquishyMiqoteMods.CassiesGarden_BluebonnetSeeds", "BeforeId": "GrassStarter"},
+			{"Id": "SquishyMiqoteMods.CassiesGarden_RedColeusSeeds", "BeforeId": "GrassStarter"},
+			{"Id": "SquishyMiqoteMods.CassiesGarden_MossRoseSeeds", "BeforeId": "GrassStarter"}
+			]			
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"TargetField": [ "SeedShop", "Items" ],
+		"When": {"Tahla's Crops": true},
+		"Entries": {
+
+			"SquishyMiqoteMods.CassiesGarden_CherryTomatoesSeeds": {
+				"Id": "SquishyMiqoteMods.CassiesGarden_CherryTomatoesSeeds",
+				"ItemId": "SquishyMiqoteMods.CassiesGarden_CherryTomatoesSeeds",
+				"Condition": "SEASON spring summer",
+				"IgnoreShopPriceModifiers": true 
+			},
+
+			"SquishyMiqoteMods.CassiesGarden_CucumberSeeds": {
+				"Id": "SquishyMiqoteMods.CassiesGarden_CucumberSeeds",
+				"ItemId": "SquishyMiqoteMods.CassiesGarden_CucumberSeeds",
+				"Condition": "SEASON summer",
+				"IgnoreShopPriceModifiers": true 
+			},
+
+			"SquishyMiqoteMods.CassiesGarden_SnowPeasSeeds": {
+				"Id": "SquishyMiqoteMods.CassiesGarden_SnowPeasSeeds",
+				"ItemId": "SquishyMiqoteMods.CassiesGarden_SnowPeasSeeds",
+				"Condition": "SEASON spring fall",
+				"IgnoreShopPriceModifiers": true 
+			},
+
+			"SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSeeds": {
+				"Id": "SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSeeds",
+				"ItemId": "SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSeeds",
+				"Condition": "SEASON fall winter",
+				"IgnoreShopPriceModifiers": true 
+			}
+	
+		},
+			"MoveEntries": [
+				{"Id": "SquishyMiqoteMods.CassiesGarden_CherryTomatoesSeeds", "BeforeId": "GrassStarter"},
+				{"Id": "SquishyMiqoteMods.CassiesGarden_CucumberSeeds", "BeforeId": "GrassStarter"},
+				{"Id": "SquishyMiqoteMods.CassiesGarden_SnowPeasSeeds", "BeforeId": "GrassStarter"},
+				{"Id": "SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSeeds", "BeforeId": "GrassStarter"},
+				{"Id": "SquishyMiqoteMods.CassiesGarden_KumquatSapling", "AfterId": "623"}
+				
+				]
+			}
+		]
+}
