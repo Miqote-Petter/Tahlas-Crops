@@ -14,6 +14,7 @@ Moss Rose (Flower)
 Snow Peas
 
 
+
 SUMMER
 
 Cucumber
@@ -23,6 +24,7 @@ Moss Rose (Flower)
 Red Coleus (Multiharvest flower, not great for honey)
 
 
+
 FALL
 
 Snow Peas
@@ -30,19 +32,31 @@ Snow Peas
 Spaghetti Squash
 
 
+
 WINTER
 
 Spaghetti Squash
 
+Kumquat Tree
+
+
 
 FOODS
 
-Cherry Tomato Sauce (for below recipe)
+Cherry Tomato Sauce
+
+Cucumber and Cherry Tomato Salad
 
 Spaghetti Squash Pasta
+
+Sautéed Snow Peas
+
+Kumquat Tart
+
 
 
 More to come at a future date, from plants to foods. Possibly more fruit trees.
 
 
-Bugs may be reported here, on our Nexus page or on our Moddrop page.
+
+Bugs and issues may be reported here, our Nexus page or our ModDrop page.
