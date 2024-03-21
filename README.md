@@ -6,7 +6,6 @@ A small mod with a handful of new crops, including flowers, vegetables and some 
 SPRING
 
 Bluebonnet (Flower)
-
 Cherry Tomato
 
 Moss Rose (Flower)
