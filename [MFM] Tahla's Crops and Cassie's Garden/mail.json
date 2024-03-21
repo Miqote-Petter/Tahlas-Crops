@@ -1,0 +1,43 @@
+[
+    {
+        "Id": "CassiesGarden.FreeBeeHive",
+        "GroupID": null,
+        "Text": "Hey @, Marnie bought a bunch of Bee Hive flatpacks from Robin, and I thought I'd pick one up for you, as pollinators are vital to the success of a farm. If you like it, you can buy more from her.^^-Lewis ",
+    "Attachments": [
+        {
+        "Type": "BigCraftable",
+        "Name": null,
+        "Index": 10,
+        "Stack": 1
+            }
+        ],
+    "SkillConditions": 
+		[
+		{ "SkillName": "Farming", "SkillLevel": 1 }
+	    ]	    
+    },
+    {
+        "Id": "CassiesGarden.TomatoSauce",
+        "GroupID": null,
+        "Text": "Did you know that you can prepare your Cherry Tomatoes into a sweet, hearty sauce by crushing them into a pan and cooking them with finely chopped parsnip and some oil? With one growing season left, now's your time to stock up to prepare for winter. If you didn't in Spring, buy some Cherry Tomato seeds from Pierre today!",
+        "Date": "4 summer Y1",
+        "Recipe": "Cherry Tomato Sauce"
+    },
+    {
+        "Id": "CassiesGarden.SquashSpaghetti",
+        "GroupID": null,
+        "Text": "Hi @, I am another farmer on the other side of the Ferngill Republic, and read about your farm in the Stardew Valley Tribune. Here's a family recipe that was passed down generations for making Squash Spaghetti with the fall and winter's Spaghetti Squash. It is important to use Cherry Tomatoes for the sauce over regular tomatoes, as you will want that extra sweetness to balance the natural acidity of tomatoes since we aren't using any sugar!^^-Tahla Wolndara",
+        "TotalMoneyEarned": 29750,
+        "MailReceived": ["newsstory"],
+        "Recipe": "Squash Spaghetti"
+    },
+    {
+        "Id": "CassiesGarden.KumquatTart",
+        "GroupID": null,
+        "Text": "Hi @, I have continued to track your success, and wanted to send you another family recipe: my family's Kumquat Tart.^^-Tahla Wolndara",
+        "TotalMoneyEarned": 45000,
+        "Date": "1 winter Y1",
+        "MailReceived": ["CassiesGarden.SquashSpaghetti"],
+        "Recipe": "Kumquat Tart"
+    }
+]

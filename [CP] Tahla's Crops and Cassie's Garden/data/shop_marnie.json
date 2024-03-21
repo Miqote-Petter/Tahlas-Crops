@@ -1,0 +1,18 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "AnimalShop", "Items" ],
+        "Entries": {
+          "BC(10)": {
+              "Id": "(BC)10",
+              "ItemId": "(BC)10",
+              "Condition": "SEASON spring summer fall",
+              "Price": 2500,
+              "IgnoreShopPriceModifiers": true
+                }
+            }
+        }
+    ]
+}

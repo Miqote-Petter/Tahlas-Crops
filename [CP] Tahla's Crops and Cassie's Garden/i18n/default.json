@@ -1,0 +1,56 @@
+{
+	"Bluebonnet_name": "Bluebonnet",
+	"Bluebonnet_description": "A deep purple or blue spring flower loved by pollinators. Like all other Lupines, it's toxic, so don't ingest it.",
+	"BluebonnetSeeds_name": "Bluebonnet Seeds",
+	"BluebonnetSeeds_description": "Plant in early spring to attract pollinators all season. It takes 10 days to grow and has a deep blue flower.",
+	
+	"RedColeus_name": "Red Coleus",
+	"RedColeus_description": "The mundane, bluish flower of a coleus, pinched off to spare the plant. Toxic to dogs, cats and children.",
+	"RedColeusSeeds_name": "Red Coleus Cutting",
+	"RedColeusSeeds_description": "An herbaceous, decorative plant that loves heat yet hates the sun. It isn't ideal for honey and takes 5 days to mature. It will continue to produce small flowers every other day. Plant in summer.",
+	
+	"MossRose_name": "Moss Rose",
+	"MossRose_description": "A small, delicate and gorgeous flower of a succulent often used for ground cover in arid environments. Pollinators love it!",
+	"MossRoseSeeds_name": "Moss Rose Seed",
+	"MossRoseSeeds_description": "Plant in spring or summer. A ground-cover with delicate, pretty flowers that take 12 days to bloom. Their brightly coloured flowers are attractive to both butterflies and bees.",
+	
+	"CherryTomatoes_name": "Cherry Tomatoes",
+	"CherryTomatoes_description": "A small, slightly tart and sweet tomato.",
+	"CherryTomatoesSeeds_name": "Cherry Tomato Seeds",
+	"CherryTomatoesSeeds_description": "Plant in spring or summer. Takes 11 days to mature, and keeps producing after that. Grows on a trellis.",
+
+	"CherryTomatoSauce_name": "Cherry Tomato Sauce",
+	"CherryTomatoSauce_description": "Stewed, blended cherry tomatoes with seasonings.",
+
+	"Cucumber_name": "Cucumber",
+	"Cucumber_description": "A cool, crisp Vegetable. Better with a Salad.",
+	"CucumberSeeds_name": "Cucumber Seeds",
+	"CucumberSeeds_description": "Plant in summer. Takes 11 days to mature, and continues to produce after that. Grows on a trellis.",
+
+	"SnowPeas_name": "Snow Peas",
+	"SnowPeas_description": "A thin, crisp pod full of sweet peas. A certain Sausage's favorite treat.",
+	"SnowPeasSeeds_name": "Snow Pea Starter",
+	"SnowPeasSeeds_description": "Plant in spring or fall. Takes 10 days to mature, and keeps producing after that. Grows on a trellis.",
+
+	"SpaghettiSquash_name": "Spaghetti Squash",
+	"SpaghettiSquash_description": "A fall and winter squash of oblong shape with creamy yellow skin. A good alternative for pasta in pasta dishes.",
+	"SpaghettiSquashSeeds_name": "Spaghetti Squash Seeds",
+	"SpaghettiSquashSeeds_description": "Plant early in the fall to gain the most out of its growing season. Takes 8 days to mature and continues to produce through winter.",
+
+	"SpaghettiSquashSpaghetti_name": "Squash Spaghetti",
+	"SpaghettiSquashSpaghetti_description": "Fork-pulled spaghetti squash topped with a sweet cherry tomato sauce and cheese. Yummy!",
+
+	"KumquatSapling_name": "Kumquat Sapling",
+	"KumquatSapling_description": "A winter citrus tree. Plant late summer or early Fall so that you can enjoy them all winter long!",
+	"Kumquat_name": "Kumquat",
+	"Kumquat_description": "A winter citrus in which you primarily eat its skin, instead of peeling it. Alternatively, you can eat it whole.",
+	"KumquatTart_name": "Kumquat Tart",
+	"KumquatTart_description": "A sweet tart topped with sliced kumquat coins. Refreshing!",
+	
+	"SauteedSnowPeas_name": "Sautéed Snow Peas",
+	"SauteedSnowPeas_description": "A light meal featuring sweet, crunchy snow peas sautéed in a light oil.",
+
+	"CucumberTomatoSalad_name": "Cucumber and Cherry Tomato Salad",
+	"CucumberTomatoSalad_description": "A refreshing salad made with sliced Cucumber and halved Cherry Tomatoes, dressed with vinegar."
+
+}

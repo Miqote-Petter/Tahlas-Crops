@@ -1,0 +1,12 @@
+{
+    "Name": "Cassie's Garden MFM",
+    "Author": "SquishyMiqoteMods",
+    "Version": "0.0.3",
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Description": "MFM Portion of Tahla's Crops/Cassie's Garden.",
+    "UniqueID": "SquishyMiqoteMods.CassiesGardenMFM",
+     "ContentPackFor": {
+         "UniqueID": "DIGUS.MailFrameworkMod"
+     },
+     "UpdateKeys": ["ModDrop:1515356", "Nexus:20639"]
+  }

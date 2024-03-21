@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+        	"Action": "EditData",
+        	"Target": "Data/FruitTrees",
+            "When": {"Enable Kumquats": true},
+            "Entries": {
+                    "SquishyMiqoteMods.CassiesGarden_KumquatSapling": {
+                        "DisplayName": "{{i18n:Kumquat_name}}",
+                        "Seasons": [ "winter" ],
+                        "Fruit": [{"ItemId": "SquishyMiqoteMods.CassiesGarden_Kumquat"}],
+                        "Texture": "Mods/SquishyMiqoteMods.CassiesGarden/Kumquat_tree"
+                    }
+                } 
+            } 
+        ]
+     }
+    
+

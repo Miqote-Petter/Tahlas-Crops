@@ -1,0 +1,173 @@
+{
+	"Changes": [
+		{			
+            "Action": "EditData",
+            "Target": "Data/Crops",
+			"When": {"Enable Bluebonnets": true},
+       	 	"Entries": {
+			
+			"SquishyMiqoteMods.CassiesGarden_BluebonnetSeeds": {
+				"Seasons": [ "spring"],
+				"DaysInPhase": [ 4, 1, 1, 1, 3 ],
+				"RegrowDays": -1,
+				"ExtraHarvestChance": 0,
+				"HarvestMaxIncreasePerFarmingLevel": 0,
+				"HarvestItemId": "SquishyMiqoteMods.CassiesGarden_Bluebonnet",
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/bluebonnet_crop",
+				"CountForMonoculture": true,
+				"CountForPolyculture": false,
+				"NeedsWatering": true,
+				"TintColors": [
+                    "#33258B",
+                    "#4930C9",
+                    "#6065CB"
+                  ]
+				}
+		 	}
+		},
+			{
+				"Action": "EditData",
+				"Target": "Data/Crops",
+				"When": {"Enable Cherry Tomatoes": true},
+				"Entries": {
+
+			"SquishyMiqoteMods.CassiesGarden_CherryTomatoesSeeds": {
+				"Seasons": [ "spring", "summer"],
+				"DaysInPhase": [ 2, 2, 2, 2, 3 ],
+				"RegrowDays": 2,
+				"ExtraHarvestChance": 0,
+				"HarvestMaxIncreasePerFarmingLevel": 0,
+				"HarvestItemId": "SquishyMiqoteMods.CassiesGarden_CherryTomatoes",
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/CherryTomatoes_crop",
+				"CountForMonoculture": true,
+				"CountForPolyculture": true,
+				"NeedsWatering": true,
+				"IsRaised": true,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 3
+				}
+			}
+		},
+			{
+				"Action": "EditData",
+				"Target": "Data/Crops",
+				"When": {"Enable Cucumbers": true},
+				"Entries": {
+
+			"SquishyMiqoteMods.CassiesGarden_CucumberSeeds": {
+				"Seasons": [ "summer"],
+				"DaysInPhase": [ 2, 2, 2, 2, 3 ],
+				"RegrowDays": 4,
+				"ExtraHarvestChance": 0,
+				"HarvestMaxIncreasePerFarmingLevel": 0,
+				"HarvestItemId": "SquishyMiqoteMods.CassiesGarden_Cucumber",
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/Cucumber_crop",
+				"CountForMonoculture": true,
+				"CountForPolyculture": true,
+				"NeedsWatering": true,
+				"IsRaised": true,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 3
+				}
+			}
+		},
+			{
+				"Action": "EditData",
+				"Target": "Data/Crops",
+				"When": {"Enable Moss Roses": true},
+				"Entries": {
+					
+			"SquishyMiqoteMods.CassiesGarden_MossRoseSeeds": {
+				"Seasons": [ "spring", "summer"],
+				"DaysInPhase": [ 2, 1, 1, 3, 5 ],
+				"RegrowDays": -1,
+				"ExtraHarvestChance": 0,
+				"HarvestMaxIncreasePerFarmingLevel": 0.0,
+				"HarvestItemId": "SquishyMiqoteMods.CassiesGarden_MossRose",
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/MossRose_crop",
+				"CountForMonoculture": true,
+				"CountForPolyculture": false,
+				"NeedsWatering": true,
+				"HarvestMinStack": 2,
+				"HarvestMaxStack": 2,
+				"TintColors": [
+						"#FDF757",
+						"#FF1E6E",
+						"#FE9551",
+						"#EAFDEE",
+						"#F7C5FB",
+						"#F95B6A"
+						  ]
+				}
+			}
+		},	
+			{
+				"Action": "EditData",
+				"Target": "Data/Crops",
+				"When": {"Enable Red Coleus": true},
+				"Entries": {
+
+			"SquishyMiqoteMods.CassiesGarden_RedColeusSeeds": {
+				"Seasons": [ "summer"],
+				"DaysInPhase": [ 1, 1, 1, 1, 1 ],
+				"RegrowDays": 2,
+				"ExtraHarvestChance": 0,
+				"HarvestMaxIncreasePerFarmingLevel": 0,
+				"HarvestItemId": "SquishyMiqoteMods.CassiesGarden_RedColeus",
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/RedColeus_crop",
+				"CountForMonoculture": true,
+				"CountForPolyculture": false,
+				"NeedsWatering": true,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 2	
+				}
+			}
+		},
+			{
+				"Action": "EditData",
+				"Target": "Data/Crops",
+				"When": {"Enable Snow Peas": true},
+				"Entries": {
+
+			"SquishyMiqoteMods.CassiesGarden_SnowPeasSeeds": {
+				"Seasons": [ "spring", "fall"],
+				"DaysInPhase": [ 1, 1, 1, 3, 4 ],
+				"RegrowDays": 4,
+				"ExtraHarvestChance": 0,
+				"HarvestMaxIncreasePerFarmingLevel": 0,
+				"HarvestItemId": "SquishyMiqoteMods.CassiesGarden_SnowPeas",
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/SnowPeas_crop",
+				"CountForMonoculture": true,
+				"CountForPolyculture": true,
+				"NeedsWatering": true,
+				"IsRaised": true,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 4
+      			}
+			}
+		},
+		{
+				"Action": "EditData",
+				"Target": "Data/Crops",
+				"When": {"Enable Snow Peas": true},
+				"Entries": {
+	
+			"SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSeeds": {
+				"Seasons": [ "fall", "winter"],
+				"DaysInPhase": [ 1, 1, 2, 2, 2 ],
+				"RegrowDays": 7,
+				"ExtraHarvestChance": 0,
+				"HarvestMaxIncreasePerFarmingLevel": 0,
+				"HarvestItemId": "SquishyMiqoteMods.CassiesGarden_SpaghettiSquash",
+				"Texture": "Mods/SquishyMiqoteMods.CassiesGarden/SpaghettiSquash_crop",
+				"CountForMonoculture": true,
+				"CountForPolyculture": true,
+				"NeedsWatering": true,
+				"IsRaised": false,
+				"HarvestMinStack": 1,
+				"HarvestMaxStack": 1			
+        		}
+			}
+		}
+	] 
+}

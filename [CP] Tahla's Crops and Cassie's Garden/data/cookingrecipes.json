@@ -1,0 +1,50 @@
+{
+	"Changes": [
+		{			
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "Enable Cherry Tomatoes": true,
+                "Enable Spaghetti Squash": true
+                },
+        	"Entries": {
+
+"Cherry Tomato Sauce": "SquishyMiqoteMods.CassiesGarden_CherryTomatoes 1 24 1 247 1/66 6/SquishyMiqoteMods.CassiesGarden_CherryTomatoSauce/null/",
+"Squash Spaghetti": "SquishyMiqoteMods.CassiesGarden_CherryTomatoSauce 1 SquishyMiqoteMods.CassiesGarden_SpaghettiSquash 1 424 1/66 6/SquishyMiqoteMods.CassiesGarden_SpaghettiSquashSpaghetti/null/"
+            }
+        },
+        {			
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "Enable Snow Peas": true
+                },
+        	"Entries": {
+
+"Sauteed Snow Peas": "SquishyMiqoteMods.CassiesGarden_SnowPeas 3 247 1 /66 6/SquishyMiqoteMods.CassiesGarden_SauteedSnowPeas/s Farming 2/"
+            }
+        },
+        {			
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "Enable Kumquats": true
+                },
+        	"Entries": {
+
+"Kumquat Tart": "SquishyMiqoteMods.CassiesGarden_Kumquat 1 245 1 246 1 -5 1 /66 6/SquishyMiqoteMods.CassiesGarden_KumquatTart/null/"
+            }
+        },
+        {			
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "Enable Cherry Tomatoes": true,
+                "Enable Cucumbers": true
+                },
+        	"Entries": {
+"Cucumber and Cherry Tomato Salad": "SquishyMiqoteMods.CassiesGarden_CherryTomatoes 1 SquishyMiqoteMods.CassiesGarden_Cucumber 1 419 1/66 6/SquishyMiqoteMods.CassiesGarden_CucumberTomatoSalad/s Farming 4/"
+            }
+        }    
+    ]
+}
